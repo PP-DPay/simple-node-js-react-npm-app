@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                pwsh 'npm install' 
+                sh 'npm install' 
             }
         }
     }
